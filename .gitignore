@@ -41,6 +41,6 @@ buildNumber.properties
 .code-workspace
 
 ##############################
-## Application states
+## h2
 ##############################
-_doNotRemove/
+*.db
