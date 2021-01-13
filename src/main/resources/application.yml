@@ -1,0 +1,21 @@
+server:
+  address: 0.0.0.0
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: ''
+    url: jdbc:h2:file:./transaction-service
+    username: sa
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        web-allow-others: true
+  jpa:
+    hibernate:
+      ddl-auto: validate
+app:
+  security:
+    apiKey: 1c3038d0-d8dc-4b5b-907c-20ab9db85dad
+    allowed: .*swagger.*|.*webjar.*|.*api-docs.*
