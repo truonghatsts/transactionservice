@@ -1,5 +1,6 @@
 server:
   address: 0.0.0.0
+
 spring:
   datasource:
     driver-class-name: org.h2.Driver
@@ -18,4 +19,4 @@ spring:
 app:
   security:
     apiKey: 1c3038d0-d8dc-4b5b-907c-20ab9db85dad
-    allowed: .*swagger.*|.*webjar.*|.*api-docs.*
+    allowed: .*swagger.*|.*webjar.*|.*api-docs.*|.*h2.*
